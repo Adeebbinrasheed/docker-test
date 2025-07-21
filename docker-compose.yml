@@ -1,0 +1,8 @@
+version: "4.43.1"
+
+services:
+
+   backend:
+     build: .
+     ports:
+      - "3000:3000"
